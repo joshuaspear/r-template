@@ -1,0 +1,2 @@
+log_threshold(INFO)
+
