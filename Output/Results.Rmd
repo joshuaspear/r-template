@@ -1,0 +1,15 @@
+
+---
+title: "Results"
+author: "Lucy Karwatowska"
+date: "26/10/2021"
+output: word_document
+---
+
+```{r install packages, ECHO = FALSE, warning = FALSE, message = FALSE, include = FALSE}
+#### Load packages ####
+```
+
+```{r load data, ECHO = FALSE, include = FALSE}
+#### Load in the data ####
+```
