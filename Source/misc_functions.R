@@ -1,8 +1,11 @@
+
+#### Miscelaneous functions
+
 merge_wrapper <- function(df1, df2, ...) {
   # Wrapper funcion around the standard R merge function. This function prints 
   # a warning if the output table is a different dimension to the df1 input 
   # table  
-
+  
   # df1: dataframe object
   # df2: dataframe object
   # ... : optional paramaters which are sent to the merge object
