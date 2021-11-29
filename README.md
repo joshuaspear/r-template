@@ -1,9 +1,27 @@
-# r-template readme
 
-Template repository for R analysis projects.
-The src/main.R should be used to run all scripts end to end. This makes work reproducable and easy to run for other people. 
+# [Title of study]
 
-The project working directory should be set to the folder location of the repository manually, before running.
 
-The gitignore file has been set up for generic R projects however, more files/folders can be included.
+## Introduction
+The current repository contains scripts and data for reproducing the findings from the article ["TITLE OF STUDY"][INSERT BIORXIV LINK HERE]. Scripts are provided in .Rmd and .md formats (.md format is recommended for viewing)
+
+
+## Technologies
+Project is created with:
+* RStudio
+
+
+## Setup
+The datafiles can be found in the "Data" folder.
+To run this project, install it locally using [INSERT HERE]:
+
+
+## Project status
+This project is still under development.
+
+
+## Sources
+A lot of the code used in this project has been inspired by the ["NAME"] package and tutorial by
+["@GITHUBHANDLE"][INSERT LINK]
+
 
