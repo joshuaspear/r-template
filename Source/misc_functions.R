@@ -49,3 +49,35 @@ delete_create_dirs <- function(dir_to_create, drop_dirs){
   
   return(TRUE)
 }
+
+### Derive standard errors from confidence intervals
+ci2se <- function(uCI, lCI){
+  
+  SE = (uCI-lCI) / 3.92
+  
+  return(SE)
+}
+
+### Derive standard errors from correlations (Pearson's r)
+cor2se <- function(n, r) {
+  
+  SE = (1 - r^2) / sqrt(n - 2)
+  
+  return(SE)
+}
+
+### Derive standardised betas from unstandardised b
+b2beta <- function(b, sd_exposure, sd_outcome){
+  
+  B = (b*sd_exposure)/sd_outcome
+  
+  return(B)
+}
+
+### Derive standardised standard errors from unstandardised standard errors
+unes2es <- function(b_se, sd_exposure, sd_outcome){
+  
+  x = (sd_exposure/sd_outcome)*b_se
+  
+  return(x)
+}
